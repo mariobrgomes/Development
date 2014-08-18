@@ -4,4 +4,14 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>InserirContatoServlet</servlet-name>
+  	<display-name>InserirContatoServlet</display-name>
+  	<description></description>
+  	<servlet-class>action.InserirContatoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>InserirContatoServlet</servlet-name>
+  	<url-pattern>/InserirContatoServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
